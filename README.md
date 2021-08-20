@@ -13,3 +13,8 @@ in download folder run commend
 ```
 aria2c  --input-file=download-list.txt
 ```
+```
+aria2c --max-concurrent-downloads=10 --input-file=download-list.txt
+```
+
+[Manual](https://aria2.github.io/manual/en/html/aria2c.html#basic-options)
